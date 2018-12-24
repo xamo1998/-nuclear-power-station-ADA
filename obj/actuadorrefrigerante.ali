@@ -5,23 +5,30 @@ A -march=x86-64
 P ZX
 
 RN
+RV NO_DELAY
 RV NO_EXCEPTION_HANDLERS
 RV NO_EXCEPTION_PROPAGATION
 RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
 RV NO_IO
 RV NO_PROTECTED_TYPES
+RV NO_RELATIVE_DELAY
 RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 RV MAX_ENTRY_QUEUE_LENGTH=1+
 
-U actuadorrefrigerante%b  actuadorrefrigerante.adb  d4432154 NE OO PK IL
+U actuadorrefrigerante%b  actuadorrefrigerante.adb  76af8609 NE OO PK IL
+Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
 Z ada.tags%s		a-tags.adb		a-tags.ali
 Z system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
 Z system.soft_links%s	s-soflin.adb		s-soflin.ali
 Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
 
-U actuadorrefrigerante%s  actuadorrefrigerante.ads  8db5cbe8 EE NE OO PK IL
+U actuadorrefrigerante%s  actuadorrefrigerante.ads  dd135c56 EE NE OO PK IL
 W ada%s			ada.ads			ada.ali
 Z ada.exceptions%s	a-except.adb		a-except.ali
 W ada.real_time%s	a-reatim.adb		a-reatim.ali
@@ -32,9 +39,11 @@ W system%s		system.ads		system.ali
 Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
 W text_io%s		text_io.ads		text_io.ali
 
-D actuadorrefrigerante.ads  20181224124248 d45ac338 actuadorrefrigerante%s
-D actuadorrefrigerante.adb  20181224120830 0019e26c actuadorrefrigerante%b
+D actuadorrefrigerante.ads  20181224161744 84fc5486 actuadorrefrigerante%s
+D actuadorrefrigerante.adb  20181224162006 f253d28f actuadorrefrigerante%b
 D ada.ads		20180524051736 76789da1 ada%s
+D a-calend.ads		20180524051738 372815c8 ada.calendar%s
+D a-caldel.ads		20180524051736 9f20b83d ada.calendar.delays%s
 D a-except.ads		20180524051736 291912d5 ada.exceptions%s
 D a-finali.ads		20180524051738 bf4f806b ada.finalization%s
 D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
@@ -51,10 +60,12 @@ D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
 D monitortemperatura.ads  20181224112150 6a4ee730 monitortemperatura%s
 D system.ads		20180524051738 32a08138 system%s
 D s-atacco.ads		20180524051738 4c36d12f system.address_to_access_conversions%s
+D s-conca2.ads		20180524051736 02a0d7d0 system.concat_2%s
 D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
 D s-exctab.ads		20180524051738 54135002 system.exception_table%s
 D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
 D s-finroo.ads		20180524051738 4ff27390 system.finalization_root%s
+D s-imgint.ads		20180524051736 02dbe0c2 system.img_int%s
 D s-multip.ads		20180524051736 38ac9f73 system.multiprocessors%s
 D s-osinte.ads		20180524051738 2e5b26a9 system.os_interface%s
 D s-parame.ads		20180524051738 48ec542b system.parameters%s
@@ -75,47 +86,48 @@ D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
 D s-win32.ads		20180524051736 b7f96285 system.win32%s
 D text_io.ads		20180524051736 21b2c898 text_io%s
 X 1 actuadorrefrigerante.ads
-10K9*ActuadorRefrigerante 29l5 29e25 2|1b14 38l5 38t25
-12I9*ActuadorDato<integer> 21r17
-13W19*ActuadorEnfriar 20E7 27l8 27e23 2|2b16 35l8 35t23
+10K9*ActuadorRefrigerante 30l5 30e25 2|1b14 49l5 49t25
+12I9*ActuadorDato<integer> 22r17
+13W19*ActuadorEnfriar 21E7 28l8 28e23 2|2b16 46l8 46t23
 16U17 iniciar 2|3b17 8l11 8t18
-17U17 enfriar 17^25 2|10b17 27l11 27t18
-17p25 temperatura(17|3W19) 2|10b25 14r10
-18U17 Timer 18=23 2|19r81 29b17 33r81 34l11 34t16
-18r23 event{8|40R9} 2|29b23
-20o7 nextTime{7|49O9} 2|7r10 18r10 19r71 32r10 32r20 33r71
-21i7 enfriando{12I9}
-22b7 datoDisponible{boolean}
-23r16 salidaJitterControl{8|40R9} 2|19r50 33r50
-25o7 salidaPeriodo{7|54O9} 2|7r26 18r26 32r29
+17U17 parar 2|10b17 13l11 13t16
+18U17 enfriar 18^25 2|17b17 38l11 38t18
+18p25 temperatura(19|3W19) 2|17b25 21r66 22r13
+19U17 Timer 19=23 2|40b17 44r81 45l11 45t16
+19r23 event{10|40R9} 2|40b23
+21o7 nextTime{9|49O9} 2|7r10 43r10 43r20 44r71
+22i7 enfriando{12I9}
+23b7 compuerta{boolean} 2|12r10 19r10 20r16
+24r16 salidaJitterControl{10|40R9} 2|44r50
+26o7 salidaPeriodo{9|54O9} 2|7r26 43r29
 X 3 ada.ads
-16K9*Ada 1|3r6 4r5 5r6 6r5 18r37 20r16 23r36 25r21 25r46 2|19r10 29r36 33r10
-. 3|20e8
-X 7 a-reatim.ads
-39K13*Real_Time 1|3w10 4r9 5r10 6r9 18r41 20r20 23r40 25r25 25r50 2|19r14
-. 29r40 33r14 7|185e18
-49O9*Time<duration> 1|20r30
-54O9*Time_Span<duration> 1|25r35
-61V13*Clock{49O9} 2|7s20 18s20
-65V14*"+"{49O9} 2|7s25 18s25 32s28
-119V13*Milliseconds{54O9} 1|25s60
-X 8 a-rttiev.ads
-38K23*Timing_Events 1|5w20 18r51 23r50 2|19r24 29r50 33r24 8|81e32
-40R9*Timing_Event<5|50R9> 1|18r65 23r64 2|29r64 8|75e14
-45U14*Set_Handler 2|19s38 33s38
-X 11 a-textio.ads
-263U14*Put_Line 2|20s18
-X 17 monitortemperatura.ads
-1K9*monitorTemperatura 1|8w6 9r5 17|12e23
-3W19*TemperaturaReactor 1|17r45 2|10r45 17|9e26
-6U17 decrement 2|14s22
-X 18 system.ads
-37K9*System 1|2w6 15r33 18|200e11
+16K9*Ada 1|3r6 4r5 5r6 6r5 19r37 21r16 24r36 26r21 26r46 2|40r36 44r10 3|20e8
+X 9 a-reatim.ads
+39K13*Real_Time 1|3w10 4r9 5r10 6r9 19r41 21r20 24r40 26r25 26r50 2|40r40
+. 44r14 9|185e18
+49O9*Time<duration> 1|21r30
+54O9*Time_Span<duration> 1|26r35
+61V13*Clock{49O9} 2|7s20
+65V14*"+"{49O9} 2|7s25 43s28
+119V13*Milliseconds{54O9} 1|26s60
+X 10 a-rttiev.ads
+38K23*Timing_Events 1|5w20 19r51 24r50 2|40r50 44r24 10|81e32
+40R9*Timing_Event<7|50R9> 1|19r65 24r64 2|40r64 10|75e14
+45U14*Set_Handler 2|44s38
+X 13 a-textio.ads
+263U14*Put_Line 2|21s21 31s18
+X 19 monitortemperatura.ads
+1K9*monitorTemperatura 1|8w6 9r5 19|12e23
+3W19*TemperaturaReactor 1|18r45 2|17r45 19|9e26
+4V16 read{integer} 2|21s78
+6U17 decrement 2|22s25
+X 20 system.ads
+37K9*System 1|2w6 15r33 20|200e11
 100I12*Any_Priority{integer}
 102I12*Interrupt_Priority{100I12} 1|15r40
-X 30 s-stausa.ads
+X 34 s-stausa.ads
 203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
 268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
-X 42 text_io.ads
-24K9*Text_IO=24:29 1|7w6 2|20r10
+X 46 text_io.ads
+24K9*Text_IO=24:29 1|7w6 2|21r13 31r10
 

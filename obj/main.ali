@@ -26,7 +26,7 @@ RV SPARK_05
 RV MAX_TASKS=1+
 RV MAX_ENTRY_QUEUE_LENGTH=1+
 
-U main%b		main.adb		8a79e8ad NE OO SU
+U main%b		main.adb		bcfeb443 NE OO SU
 W actuadorrefrigerante%s  actuadorrefrigerante.adb  actuadorrefrigerante.ali
 W ada%s			ada.ads			ada.ali
 Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
@@ -53,7 +53,7 @@ Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
 Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
 W text_io%s		text_io.ads		text_io.ali
 
-D actuadorrefrigerante.ads  20181224124248 d45ac338 actuadorrefrigerante%s
+D actuadorrefrigerante.ads  20181224161744 84fc5486 actuadorrefrigerante%s
 D ada.ads		20180524051736 76789da1 ada%s
 D a-calend.ads		20180524051738 372815c8 ada.calendar%s
 D a-caldel.ads		20180524051736 9f20b83d ada.calendar.delays%s
@@ -73,9 +73,9 @@ D interfac.ads		20180524051736 5ab55268 interfaces%s
 D i-c.ads		20180524051736 5421119b interfaces.c%s
 D i-cstrin.ads		20180524051736 341d0ddf interfaces.c.strings%s
 D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
-D main.adb		20181224125554 3bf343b8 main%b
+D main.adb		20181224161700 7985e0e5 main%b
 D monitortemperatura.ads  20181224112150 6a4ee730 monitortemperatura%s
-D sensortemperatura.ads	20181224124248 4dda3d12 sensortemperatura%s
+D sensortemperatura.ads	20181224160838 698d551f sensortemperatura%s
 D system.ads		20180524051738 32a08138 system%s
 D s-atacco.ads		20180524051738 4c36d12f system.address_to_access_conversions%s
 D s-conca2.ads		20180524051736 02a0d7d0 system.concat_2%s
@@ -115,10 +115,11 @@ D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
 D s-win32.ads		20180524051736 b7f96285 system.win32%s
 D text_io.ads		20180524051736 21b2c898 text_io%s
 X 1 actuadorrefrigerante.ads
-10K9*ActuadorRefrigerante 29e25 21|10w6 11r5
-13W19*ActuadorEnfriar 27e23 21|23r122 63r23 64r23 65r23
-16U17 iniciar 21|78s14 79s14 80s14
-17U17 enfriar 21|53s20 55s20
+10K9*ActuadorRefrigerante 30e25 21|10w6 11r5
+13W19*ActuadorEnfriar 28e23 21|23r122 73r23 74r23 75r23
+16U17 iniciar 21|89s14 90s14 91s14
+17U17 parar 21|63s20
+18U17 enfriar 21|59s20 61s20
 X 2 ada.ads
 16K9*Ada 20e8 21|2r6 3r6 5r6 6r5 7r5 16r29
 X 8 a-numeri.ads
@@ -126,8 +127,8 @@ X 8 a-numeri.ads
 X 9 a-nudira.ads
 44k22*Discrete_Random 75e33 21|5w19 16r42
 50R9 Generator<38|63R9> 21|17r24[16]
-52V13 Random{integer} 21|31s28[16]
-55U14 Reset<38|100p14> 21|30s20[16]
+52V13 Random{integer} 21|32s28[16]
+55U14 Reset<38|100p14> 21|31s20[16]
 X 10 a-nudira.adb
 53V16 Random[38|83]{integer} 39|392b13[21|16]
 X 11 a-reatim.ads
@@ -135,42 +136,42 @@ X 11 a-reatim.ads
 X 12 a-rttiev.ads
 38K23*Timing_Events 81e32 21|3w20 7r19
 X 15 a-textio.ads
-263U14*Put_Line 21|32s18 52s21 58s18
+263U14*Put_Line 21|33s18 58s21 66s18
 X 17 interfac.ads
 74M9*Unsigned_32
 77M9*Unsigned_64
 X 21 main.adb
-14U11*Main 14b11 83l5 83t9
-15I12 aleatorioReactor{integer} 16r58 27r15
-16K12 Aleatorio[9|44] 17r14 30r10 31r18
-17r7 seed{9|50R9[16]} 30r26 31r35
-18w4 tempReactor1{22|3W19} 34r13 68m27 68r27
-19w4 tempReactor2{22|3W19} 36r13 69m27 69r27
-20w4 tempReactor3{22|3W19} 38r12 70m27 70r27
-22T14 Calentar 25b14 43l8 43t16 71r16
-23T14 Coordinador 23d26 23d47 23d81 23d108 46b14 60l8 60t19 68r13 69r13 70r13
-23i26 numReactor{integer} 52r83 58r58
-27i7 random{15I12} 31m10 32r64 33r13 35r16 37r16
-47i7 datoEntrada{integer} 50m23 51r13 54r16 58r84
-62w4 sensor1{23|11W19} 68m47 68r47 75r4
-63w4 actuador1{1|13W19} 68m63 68r63 78r4
-64w4 actuador2{1|13W19} 69m63 69r63 79r4
-65w4 actuador3{1|13W19} 70m63 70r63 80r4
-66w4 sensor2{23|11W19} 69m47 69r47 76r4
-67w4 sensor3{23|11W19} 70m47 70r47 77r4
-68t4 control1{23T14}
-69t4 control2{23T14}
-70t4 control3{23T14}
-71t4 calentador{22T14}
+14U11*Main 14b11 94l5 94t9
+15I12 aleatorioReactor{integer} 16r58 28r15
+16K12 Aleatorio[9|44] 17r14 31r10 32r18
+17r7 seed{9|50R9[16]} 31r26 32r35
+18w4 tempReactor1{22|3W19} 35r13 78m27 78r27
+19w4 tempReactor2{22|3W19} 37r13 79m27 79r27
+20w4 tempReactor3{22|3W19} 39r12 80m27 80r27
+22T14 Calentar 26b14 44l8 44t16 81r16
+23T14 Coordinador 23d26 23d47 23d81 23d108 48b14 70l8 70t19 78r13 79r13 80r13
+23i26 numReactor{integer} 58r83 66r58
+28i7 random{15I12} 32m10 33r64 34r13 36r16 38r16
+49i7 datoEntrada{integer} 55m23 57r13 60r16 62r16 66r84
+72w4 sensor1{23|11W19} 78m47 78r47 86r4
+73w4 actuador1{1|13W19} 78m63 78r63 89r4
+74w4 actuador2{1|13W19} 79m63 79r63 90r4
+75w4 actuador3{1|13W19} 80m63 80r63 91r4
+76w4 sensor2{23|11W19} 79m47 79r47 87r4
+77w4 sensor3{23|11W19} 80m47 80r47 88r4
+78t4 control1{23T14}
+79t4 control2{23T14}
+80t4 control3{23T14}
+81t4 calentador{22T14}
 X 22 monitortemperatura.ads
 1K9*monitorTemperatura 21|12w6 13r5 22|12e23
 3W19*TemperaturaReactor 21|18r26 19r25 20r25 23r62 22|9e26
-5U17 increment 21|34s26 36s26 38s25
+5U17 increment 21|35s26 37s26 39s25
 X 23 sensortemperatura.ads
 9K9*SensorTemperatura 21|8w6 9r5 23|26e22
-11W19*SensorTemp 21|23r96 62r21 66r21 67r21 23|23e18
-13U17 iniciar 21|75s12 76s12 77s12
-14Y13 leer 21|50s18
+11W19*SensorTemp 21|23r96 72r21 76r21 77r21 23|23e18
+13U17 iniciar 21|86s12 87s12 88s12
+14Y13 leer 21|55s18
 X 24 system.ads
 37K9*System 21|4w6 24|200e11
 67M9*Address
@@ -187,5 +188,5 @@ X 44 s-stausa.ads
 X 46 s-stalib.adb
 93U14 Break_Start 94i<c,__gnat_break_start>22
 X 61 text_io.ads
-24K9*Text_IO=24:29 21|1w6 32r10 52r13 58r10
+24K9*Text_IO=24:29 21|1w6 33r10 58r13 66r10
 

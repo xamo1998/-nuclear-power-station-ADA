@@ -6,18 +6,29 @@ protected body ActuadorEnfriar is
          --he comentado en el main esperar los 260ms
          nextTime:=Clock+salidaPeriodo;
       end iniciar;
-
+      
+      procedure parar is
+      begin
+         compuerta:=False;
+      end parar;
+      
+      
+      
       procedure enfriar(temperatura: access TemperaturaReactor) is
       begin
-         --null;
-         --enfriando:=dato;
-         temperatura.decrement;
+         compuerta:=True;
+         while compuerta loop
+            Text_IO.Put_Line("Enfriando... TEMP: "&Integer'Image(temperatura.read));
+            temperatura.decrement;
+            delay 1.0;
+         end  loop;
          
          
          
-         nextTime:=Clock+salidaPeriodo;
-         Ada.Real_Time.Timing_Events.Set_Handler(salidaJitterControl, nextTime, Timer'Access);
-         Text_IO.Put_Line("Enfriando...");
+         
+         --nextTime:=Clock+salidaPeriodo;
+         --Ada.Real_Time.Timing_Events.Set_Handler(salidaJitterControl, nextTime, Timer'Access);
+         Text_IO.Put_Line("He acabado de enfriar");
          --if temperatura.read >=1500 then
             --return True;
          --else

@@ -19,7 +19,7 @@ package SensorTemperatura is
       datoDisponible: Boolean:=True;
       entradaJitterControl: Ada.Real_Time.Timing_Events.Timing_Event;
       --XXms -XXms del input jitter
-      entradaPeriodo:Ada.Real_Time.Time_Span := Ada.Real_Time.Milliseconds(6000);
+      entradaPeriodo:Ada.Real_Time.Time_Span := Ada.Real_Time.Milliseconds(2000);
    end SensorTemp;
    
 

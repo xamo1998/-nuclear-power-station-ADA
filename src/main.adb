@@ -22,6 +22,7 @@ procedure Main is
    task type Calentar;
    task type Coordinador(numReactor: Integer; reactor:access TemperaturaReactor;entrada:access SensorTemp; salida:access ActuadorEnfriar);
 
+
    task body Calentar is
 
       random: aleatorioReactor;
@@ -38,25 +39,34 @@ procedure Main is
            tempReactor3.increment;
          end if;
 
-         delay 7.0;
+         delay 2.0;
          end loop;
    end Calentar;
 
 
+
    task body Coordinador is
       datoEntrada: Integer;
+       --entry sensorTempe(dato: out Integer; temperatura: access TemperaturaReactor);
    begin
+
       loop
-         entrada.leer(datoEntrada,reactor );
+
+         entrada.leer(datoEntrada,reactor);
+
          if datoEntrada>1750 then
             Text_IO.Put_Line("Error temperatura mayor de 1750---->"&Integer'Image(numReactor));
             salida.enfriar(reactor);
          elsif datoEntrada>=1500 then
             salida.enfriar(reactor);
+         elsif datoEntrada<1500 then
+            salida.parar;
          end if;
 
          Text_IO.Put_Line("Temp Reactor: "&Integer'Image(numReactor)&Integer'Image(datoEntrada));
       end loop;
+
+
    end Coordinador;
 
    sensor1: aliased SensorTemp;
@@ -69,6 +79,7 @@ procedure Main is
    control2:Coordinador(2,tempReactor2'Access,sensor2'Access, actuador2'Access);
    control3:Coordinador(3,tempReactor3'Access,sensor3'Access, actuador3'Access);
    calentador: Calentar;
+   --alarma:Alarma;
 
 
 begin

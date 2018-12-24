@@ -1,580 +1,7 @@
 <?xml version="1.0"?>
 <Locations >
-  <Project>
-    <vfs_file />
-    <file_marker column=" 23" line=" 53" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\sensortemperatura.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 37" line=" 53" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 55" line=" 17" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\sensortemperatura.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\sensortemperatura.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 37" line=" 53" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 27" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 23" line=" 35" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 10" line=" 14" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\monitortemperatura.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\monitortemperatura.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 14" line=" 7" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 10" line=" 14" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\sensortemperatura.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 51" line=" 17" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 10" line=" 14" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\sensortemperatura.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 2" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 37" line=" 13" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\sensortemperatura.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 13" line=" 9" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 2" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 10" line=" 14" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 14" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 37" line=" 13" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 26" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 37" line=" 13" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 10" line=" 2" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 10" line=" 14" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 15" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 10" line=" 14" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 12" line=" 12" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 10" line=" 14" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 28" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 37" line=" 13" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 11" line=" 19" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 37" line=" 13" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 19" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 37" line=" 13" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 14" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 37" line=" 13" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 27" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 37" line=" 13" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 16" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 19" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 37" line=" 13" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 26" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 37" line=" 13" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 27" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 26" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 16" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 27" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 16" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 19" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 16" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 26" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 10" line=" 14" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 36" line=" 13" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 10" line=" 14" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 74" line=" 10" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 10" line=" 14" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 34" line=" 26" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 21" line=" 14" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\sensortemperatura.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 10" line=" 14" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 74" line=" 10" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 53" line=" 6" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 21" line=" 14" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\sensortemperatura.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\sensortemperatura.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\sensortemperatura.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\monitortemperatura.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\sensortemperatura.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\monitortemperatura.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 21" line=" 14" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 26" line=" 6" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\monitortemperatura.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\monitortemperatura.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 17" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\monitortemperatura.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 21" line=" 14" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 74" line=" 10" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 10" line=" 16" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\monitortemperatura.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\monitortemperatura.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\monitortemperatura.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\monitortemperatura.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 3" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\monitortemperatura.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 40" line=" 3" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\monitortemperatura.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 9" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\monitortemperatura.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 40" line=" 3" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\monitortemperatura.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 9" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\monitortemperatura.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 40" line=" 3" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\monitortemperatura.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 13" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\monitortemperatura.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 40" line=" 3" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\monitortemperatura.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 33" line=" 8" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\monitortemperatura.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 21" line=" 14" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\monitortemperatura.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\monitortemperatura.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 23" line=" 14" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 8" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\monitortemperatura.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\monitortemperatura.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\monitortemperatura.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\monitortemperatura.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\monitortemperatura.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 19" line=" 8" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\monitortemperatura.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 21" line=" 14" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\sensortemperatura.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\sensortemperatura.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 27" >
-      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
-      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 67" line=" 20" >
+  <Project >
+    <file_marker column=" 122" line=" 23" >
       <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
       <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
     </file_marker>
@@ -618,15 +45,15 @@
       <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
       <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\reactor.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 19" line=" 41" >
+    <file_marker column=" 19" line=" 61" >
       <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
       <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 10" line=" 42" >
+    <file_marker column=" 10" line=" 64" >
       <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
       <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 13" line=" 22" >
+    <file_marker column=" 13" line=" 33" >
       <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
       <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
     </file_marker>
@@ -666,7 +93,7 @@
       <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
       <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 33" line=" 41" >
+    <file_marker column=" 28" line=" 61" >
       <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
       <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
     </file_marker>
@@ -678,11 +105,11 @@
       <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
       <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 24" line=" 60" >
+    <file_marker column=" 1" line=" 86" >
       <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
       <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 16" line=" 15" >
+    <file_marker column=" 17" line=" 18" >
       <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
       <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
     </file_marker>
@@ -706,11 +133,11 @@
       <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
       <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 34" line=" 15" >
+    <file_marker column=" 44" line=" 18" >
       <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
       <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 10" line=" 25" >
+    <file_marker column=" 1" line=" 41" >
       <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
       <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
     </file_marker>
@@ -726,11 +153,11 @@
       <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
       <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 28" line=" 25" >
+    <file_marker column=" 1" line=" 41" >
       <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
       <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 19" line=" 41" >
+    <file_marker column=" 19" line=" 61" >
       <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
       <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
     </file_marker>
@@ -742,15 +169,15 @@
       <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
       <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 73" line=" 17" >
+    <file_marker column=" 45" line=" 18" >
       <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
       <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 10" line=" 25" >
+    <file_marker column=" 1" line=" 41" >
       <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
       <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 19" line=" 41" >
+    <file_marker column=" 19" line=" 61" >
       <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
       <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
     </file_marker>
@@ -762,15 +189,15 @@
       <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
       <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 28" line=" 25" >
+    <file_marker column=" 1" line=" 41" >
       <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
       <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 19" line=" 41" >
+    <file_marker column=" 19" line=" 61" >
       <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
       <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 26" line=" 35" >
+    <file_marker column=" 26" line=" 48" >
       <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
       <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
     </file_marker>
@@ -798,9 +225,581 @@
       <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
       <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\sensortemperatura.ads</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 1" line=" 1" >
+    <file_marker column=" 1" line=" 1" >
       <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
       <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\sensortemperatura.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 63" line=" 18" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 18" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 13" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 41" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 61" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 25" line=" 17" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 86" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 24" line=" 22" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\monitortemperatura.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 3" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\monitortemperatura.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 24" line=" 22" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 44" line=" 17" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 35" line=" 55" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 28" line=" 61" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 18" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\monitortemperatura.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 3" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\monitortemperatura.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\monitortemperatura.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\monitortemperatura.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\sensortemperatura.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\sensortemperatura.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\sensortemperatura.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\sensortemperatura.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 41" line=" 32" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 16" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 35" line=" 5" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 16" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 6" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 16" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 6" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 31" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 27" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 28" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 32" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 81" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 34" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 22" line=" 37" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 38" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 35" line=" 55" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 34" line=" 57" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 81" line=" 78" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 80" line=" 23" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 54" line=" 78" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 38" line=" 80" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 25" line=" 78" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 27" line=" 66" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 35" line=" 55" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 35" line=" 61" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 35" line=" 55" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 55" line=" 23" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 39" line=" 78" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 62" line=" 23" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 35" line=" 61" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 62" line=" 23" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 29" line=" 38" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 42" line=" 55" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\monitortemperatura.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\monitortemperatura.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 42" line=" 55" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\sensortemperatura.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\sensortemperatura.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 57" line=" 10" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\sensortemperatura.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 49" line=" 14" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\sensortemperatura.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\sensortemperatura.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\sensortemperatura.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\sensortemperatura.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 73" line=" 33" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\sensortemperatura.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\sensortemperatura.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 30" line=" 58" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 40" line=" 66" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 69" line=" 58" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 66" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 47" line=" 10" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\sensortemperatura.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\sensortemperatura.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 69" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 68" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 8" line=" 50" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 8" line=" 50" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 8" line=" 50" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 8" line=" 50" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 8" line=" 50" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 8" line=" 50" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 53" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 50" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 8" line=" 50" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 49" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\monitortemperatura.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\sensortemperatura.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\monitortemperatura.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\sensortemperatura.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\sensortemperatura.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 54" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 54" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 54" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 8" line=" 50" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 54" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 8" line=" 50" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 54" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 57" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 50" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 57" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 54" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 46" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 57" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 46" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 77" line=" 22" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\sensortemperatura.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 46" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 24" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 50" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\sensortemperatura.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 26" line=" 63" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 23" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 12" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 23" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 22" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 51" line=" 21" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 22" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 23" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>E:\Documents\GithubProjects\-nuclear-power-station-ADA\nuclearpowerstation.gpr</vfs_project>
+      <vfs_file>E:\Documents\GithubProjects\-nuclear-power-station-ADA\src\actuadorrefrigerante.adb</vfs_file>
     </file_marker>
   </Project>
 </Locations>
