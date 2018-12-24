@@ -3,9 +3,9 @@ package monitorTemperatura is
    protected type TemperaturaReactor is
       function read return Integer;
       procedure increment;
-      --procedure decrement;
+      procedure decrement;
    private
-      temperatura:Integer:=1850;
+      temperatura:Integer:=1450;
    end TemperaturaReactor;
    
         

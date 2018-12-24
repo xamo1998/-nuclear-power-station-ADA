@@ -37,15 +37,15 @@ package ada_main is
    pragma Export (C, main, "main");
 
    type Version_32 is mod 2 ** 32;
-   u00001 : constant Version_32 := 16#03e16cb9#;
+   u00001 : constant Version_32 := 16#8a79e8ad#;
    pragma Export (C, u00001, "mainB");
    u00002 : constant Version_32 := 16#050ff2f0#;
    pragma Export (C, u00002, "system__standard_libraryB");
    u00003 : constant Version_32 := 16#35869f17#;
    pragma Export (C, u00003, "system__standard_libraryS");
-   u00004 : constant Version_32 := 16#d3b8d6a5#;
+   u00004 : constant Version_32 := 16#d4432154#;
    pragma Export (C, u00004, "actuadorrefrigeranteB");
-   u00005 : constant Version_32 := 16#1c147656#;
+   u00005 : constant Version_32 := 16#8db5cbe8#;
    pragma Export (C, u00005, "actuadorrefrigeranteS");
    u00006 : constant Version_32 := 16#d398a95f#;
    pragma Export (C, u00006, "ada__tagsB");
@@ -415,42 +415,56 @@ package ada_main is
    pragma Export (C, u00188, "system__tasking__utilitiesB");
    u00189 : constant Version_32 := 16#332a5557#;
    pragma Export (C, u00189, "system__tasking__utilitiesS");
-   u00190 : constant Version_32 := 16#a9af7bc2#;
-   pragma Export (C, u00190, "text_ioS");
-   u00191 : constant Version_32 := 16#927a893f#;
-   pragma Export (C, u00191, "ada__text_ioB");
-   u00192 : constant Version_32 := 16#25015822#;
-   pragma Export (C, u00192, "ada__text_ioS");
-   u00193 : constant Version_32 := 16#73d2d764#;
-   pragma Export (C, u00193, "interfaces__c_streamsB");
-   u00194 : constant Version_32 := 16#b1330297#;
-   pragma Export (C, u00194, "interfaces__c_streamsS");
-   u00195 : constant Version_32 := 16#ec083f01#;
-   pragma Export (C, u00195, "system__file_ioB");
-   u00196 : constant Version_32 := 16#95d1605d#;
-   pragma Export (C, u00196, "system__file_ioS");
-   u00197 : constant Version_32 := 16#cf3f1b90#;
-   pragma Export (C, u00197, "system__file_control_blockS");
-   u00198 : constant Version_32 := 16#357666d8#;
-   pragma Export (C, u00198, "ada__calendar__delaysB");
-   u00199 : constant Version_32 := 16#a808adf5#;
-   pragma Export (C, u00199, "ada__calendar__delaysS");
-   u00200 : constant Version_32 := 16#b8719323#;
-   pragma Export (C, u00200, "ada__calendarB");
-   u00201 : constant Version_32 := 16#41508869#;
-   pragma Export (C, u00201, "ada__calendarS");
-   u00202 : constant Version_32 := 16#4a7e43c4#;
-   pragma Export (C, u00202, "monitortemperaturaB");
-   u00203 : constant Version_32 := 16#cdf6f325#;
-   pragma Export (C, u00203, "monitortemperaturaS");
-   u00204 : constant Version_32 := 16#13592d99#;
-   pragma Export (C, u00204, "sensortemperaturaB");
-   u00205 : constant Version_32 := 16#d35d07a4#;
-   pragma Export (C, u00205, "sensortemperaturaS");
-   u00206 : constant Version_32 := 16#5dc07a5a#;
-   pragma Export (C, u00206, "system__memoryB");
-   u00207 : constant Version_32 := 16#6bdde70c#;
-   pragma Export (C, u00207, "system__memoryS");
+   u00190 : constant Version_32 := 16#63fbee28#;
+   pragma Export (C, u00190, "monitortemperaturaB");
+   u00191 : constant Version_32 := 16#6a4ee730#;
+   pragma Export (C, u00191, "monitortemperaturaS");
+   u00192 : constant Version_32 := 16#a9af7bc2#;
+   pragma Export (C, u00192, "text_ioS");
+   u00193 : constant Version_32 := 16#927a893f#;
+   pragma Export (C, u00193, "ada__text_ioB");
+   u00194 : constant Version_32 := 16#25015822#;
+   pragma Export (C, u00194, "ada__text_ioS");
+   u00195 : constant Version_32 := 16#73d2d764#;
+   pragma Export (C, u00195, "interfaces__c_streamsB");
+   u00196 : constant Version_32 := 16#b1330297#;
+   pragma Export (C, u00196, "interfaces__c_streamsS");
+   u00197 : constant Version_32 := 16#ec083f01#;
+   pragma Export (C, u00197, "system__file_ioB");
+   u00198 : constant Version_32 := 16#95d1605d#;
+   pragma Export (C, u00198, "system__file_ioS");
+   u00199 : constant Version_32 := 16#cf3f1b90#;
+   pragma Export (C, u00199, "system__file_control_blockS");
+   u00200 : constant Version_32 := 16#357666d8#;
+   pragma Export (C, u00200, "ada__calendar__delaysB");
+   u00201 : constant Version_32 := 16#a808adf5#;
+   pragma Export (C, u00201, "ada__calendar__delaysS");
+   u00202 : constant Version_32 := 16#b8719323#;
+   pragma Export (C, u00202, "ada__calendarB");
+   u00203 : constant Version_32 := 16#41508869#;
+   pragma Export (C, u00203, "ada__calendarS");
+   u00204 : constant Version_32 := 16#cd2959fb#;
+   pragma Export (C, u00204, "ada__numericsS");
+   u00205 : constant Version_32 := 16#c1e6e661#;
+   pragma Export (C, u00205, "sensortemperaturaB");
+   u00206 : constant Version_32 := 16#143535c2#;
+   pragma Export (C, u00206, "sensortemperaturaS");
+   u00207 : constant Version_32 := 16#ec9cfed1#;
+   pragma Export (C, u00207, "system__random_numbersB");
+   u00208 : constant Version_32 := 16#f1b831a2#;
+   pragma Export (C, u00208, "system__random_numbersS");
+   u00209 : constant Version_32 := 16#650caaea#;
+   pragma Export (C, u00209, "system__random_seedB");
+   u00210 : constant Version_32 := 16#69b0a863#;
+   pragma Export (C, u00210, "system__random_seedS");
+   u00211 : constant Version_32 := 16#1d9142a4#;
+   pragma Export (C, u00211, "system__val_unsB");
+   u00212 : constant Version_32 := 16#168e1080#;
+   pragma Export (C, u00212, "system__val_unsS");
+   u00213 : constant Version_32 := 16#5dc07a5a#;
+   pragma Export (C, u00213, "system__memoryB");
+   u00214 : constant Version_32 := 16#6bdde70c#;
+   pragma Export (C, u00214, "system__memoryS");
 
    --  BEGIN ELABORATION ORDER
    --  ada%s
@@ -573,6 +587,7 @@ package ada_main is
    --  system.object_reader%b
    --  ada.exceptions.is_null_occurrence%s
    --  ada.exceptions.is_null_occurrence%b
+   --  ada.numerics%s
    --  ada.tags%s
    --  ada.tags%b
    --  ada.streams%s
@@ -607,6 +622,8 @@ package ada_main is
    --  system.task_lock%s
    --  system.task_lock%b
    --  system.task_primitives%s
+   --  system.val_uns%s
+   --  system.val_uns%b
    --  system.win32.ext%s
    --  system.os_primitives%s
    --  system.os_primitives%b
@@ -628,6 +645,10 @@ package ada_main is
    --  ada.text_io%b
    --  system.interrupt_management.operations%s
    --  system.interrupt_management.operations%b
+   --  system.random_seed%s
+   --  system.random_seed%b
+   --  system.random_numbers%s
+   --  system.random_numbers%b
    --  system.soft_links.tasking%s
    --  system.soft_links.tasking%b
    --  system.tasking.initialization%s
@@ -653,10 +674,10 @@ package ada_main is
    --  ada.real_time.timing_events%s
    --  ada.real_time.timing_events%b
    --  text_io%s
-   --  actuadorrefrigerante%s
-   --  actuadorrefrigerante%b
    --  monitortemperatura%s
    --  monitortemperatura%b
+   --  actuadorrefrigerante%s
+   --  actuadorrefrigerante%b
    --  sensortemperatura%s
    --  sensortemperatura%b
    --  main%b

@@ -1,5 +1,5 @@
 package body ActuadorRefrigerante is
-protected body ActuadorEscritor is
+protected body ActuadorEnfriar is
       procedure iniciar is
       begin
          null;
@@ -7,14 +7,24 @@ protected body ActuadorEscritor is
          nextTime:=Clock+salidaPeriodo;
       end iniciar;
 
-      procedure escribir(dato:ActuadorDato) is
+      procedure enfriar(temperatura: access TemperaturaReactor) is
       begin
-         null;
-         escribiendo:=dato;
+         --null;
+         --enfriando:=dato;
+         temperatura.decrement;
+         
+         
+         
          nextTime:=Clock+salidaPeriodo;
          Ada.Real_Time.Timing_Events.Set_Handler(salidaJitterControl, nextTime, Timer'Access);
-         Text_IO.Put_Line("Escribir");
-      end escribir;
+         Text_IO.Put_Line("Enfriando...");
+         --if temperatura.read >=1500 then
+            --return True;
+         --else
+           -- return False;
+         --end if;
+         
+      end enfriar;
 
       procedure Timer(event:in out Ada.Real_Time.Timing_Events.Timing_Event) is
       begin
@@ -22,7 +32,7 @@ protected body ActuadorEscritor is
          nextTime:=nextTime+salidaPeriodo;
          Ada.Real_Time.Timing_Events.Set_Handler(salidaJitterControl, nextTime, Timer'Access);
       end Timer;
-   end ActuadorEscritor;
+   end ActuadorEnfriar;
    
 
 end ActuadorRefrigerante;

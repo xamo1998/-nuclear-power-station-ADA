@@ -9,11 +9,11 @@ RV NO_PROTECTED_TYPES
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U monitortemperatura%b	monitortemperatura.adb	4a7e43c4 NE OO PK IL
+U monitortemperatura%b	monitortemperatura.adb	63fbee28 NE OO PK IL
 Z system.soft_links%s	s-soflin.adb		s-soflin.ali
 Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
 
-U monitortemperatura%s	monitortemperatura.ads	cdf6f325 EE NE OO PK IL
+U monitortemperatura%s	monitortemperatura.ads	6a4ee730 EE NE OO PK IL
 Z system.tasking%s	s-taskin.adb		s-taskin.ali
 Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
 
@@ -23,8 +23,8 @@ D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20180524051736 5ab55268 interfaces%s
 D i-c.ads		20180524051736 5421119b interfaces.c%s
 D i-cstrin.ads		20180524051736 341d0ddf interfaces.c.strings%s
-D monitortemperatura.ads  20181223115308 cdf6f325 monitortemperatura%s
-D monitortemperatura.adb  20181223115308 8788b0e1 monitortemperatura%b
+D monitortemperatura.ads  20181224112150 6a4ee730 monitortemperatura%s
+D monitortemperatura.adb  20181224121300 09b50918 monitortemperatura%b
 D system.ads		20180524051738 32a08138 system%s
 D s-atacco.ads		20180524051738 4c36d12f system.address_to_access_conversions%s
 D s-exctab.ads		20180524051738 54135002 system.exception_table%s
@@ -45,11 +45,12 @@ D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
 D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
 D s-win32.ads		20180524051736 b7f96285 system.win32%s
 X 7 monitortemperatura.ads
-1K9*monitorTemperatura 12l5 12e23 8|1b14 17l5 17t23
-3W19*TemperaturaReactor 8E7 9l8 9e26 8|3b19 15l11 15t29
+1K9*monitorTemperatura 12l5 12e23 8|1b14 23l5 23t23
+3W19*TemperaturaReactor 8E7 9l8 9e26 8|3b20 21l11 21t29
 4V16 read{integer} 8|4b16 7l11 7t15
 5U17 increment 8|9b17 12l11 12t20
-8i7 temperatura{integer} 8|6r17 11r10 11r23
+6U17 decrement 8|14b17 17l11 17t20
+8i7 temperatura{integer} 8|6r17 11r10 11r23 16r10 16r23
 X 18 s-stausa.ads
 203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
 268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22

@@ -20,24 +20,30 @@ RV NO_STANDARD_STORAGE_POOLS
 RV NO_TASK_HIERARCHY
 RV NO_TASKING
 RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 RV MAX_TASKS=1+
 RV MAX_ENTRY_QUEUE_LENGTH=1+
 
-U main%b		main.adb		03e16cb9 NE OO SU
+U main%b		main.adb		8a79e8ad NE OO SU
 W actuadorrefrigerante%s  actuadorrefrigerante.adb  actuadorrefrigerante.ali
 W ada%s			ada.ads			ada.ali
 Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
 Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
 W ada.real_time%s	a-reatim.adb		a-reatim.ali
 W ada.real_time.timing_events%s  a-rttiev.adb	a-rttiev.ali
 Z ada.tags%s		a-tags.adb		a-tags.ali
 W monitortemperatura%s	monitortemperatura.adb	monitortemperatura.ali
 W sensortemperatura%s	sensortemperatura.adb	sensortemperatura.ali
 W system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
 Z system.img_int%s	s-imgint.adb		s-imgint.ali
 Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
 Z system.soft_links%s	s-soflin.adb		s-soflin.ali
 Z system.standard_library%s  s-stalib.adb	s-stalib.ali
 Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
@@ -47,13 +53,16 @@ Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
 Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
 W text_io%s		text_io.ads		text_io.ali
 
-D actuadorrefrigerante.ads  20181223111120 2fb599b6 actuadorrefrigerante%s
+D actuadorrefrigerante.ads  20181224124248 d45ac338 actuadorrefrigerante%s
 D ada.ads		20180524051736 76789da1 ada%s
 D a-calend.ads		20180524051738 372815c8 ada.calendar%s
 D a-caldel.ads		20180524051736 9f20b83d ada.calendar.delays%s
 D a-except.ads		20180524051736 291912d5 ada.exceptions%s
 D a-finali.ads		20180524051738 bf4f806b ada.finalization%s
 D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20180524051736 bb51c45a ada.numerics%s
+D a-nudira.ads		20180524051736 71e55def ada.numerics.discrete_random%s
+D a-nudira.adb		20180524051736 72908cdb ada.numerics.discrete_random%b
 D a-reatim.ads		20180524051738 0240fc73 ada.real_time%s
 D a-rttiev.ads		20180524051738 22f35a33 ada.real_time.timing_events%s
 D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
@@ -64,20 +73,26 @@ D interfac.ads		20180524051736 5ab55268 interfaces%s
 D i-c.ads		20180524051736 5421119b interfaces.c%s
 D i-cstrin.ads		20180524051736 341d0ddf interfaces.c.strings%s
 D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
-D main.adb		20181223115648 ff09f2ab main%b
-D monitortemperatura.ads  20181223115308 cdf6f325 monitortemperatura%s
-D sensortemperatura.ads	20181223114916 2d0a1b61 sensortemperatura%s
+D main.adb		20181224125554 3bf343b8 main%b
+D monitortemperatura.ads  20181224112150 6a4ee730 monitortemperatura%s
+D sensortemperatura.ads	20181224124248 4dda3d12 sensortemperatura%s
 D system.ads		20180524051738 32a08138 system%s
 D s-atacco.ads		20180524051738 4c36d12f system.address_to_access_conversions%s
+D s-conca2.ads		20180524051736 02a0d7d0 system.concat_2%s
+D s-conca3.ads		20180524051738 0b705ca5 system.concat_3%s
 D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
 D s-exctab.ads		20180524051738 54135002 system.exception_table%s
 D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
 D s-finroo.ads		20180524051738 4ff27390 system.finalization_root%s
 D s-imgint.ads		20180524051736 02dbe0c2 system.img_int%s
+D s-imguns.ads		20180524051736 9ff43cf7 system.img_uns%s
 D s-memory.ads		20180524051736 597d6634 system.memory%s
 D s-multip.ads		20180524051736 38ac9f73 system.multiprocessors%s
 D s-osinte.ads		20180524051738 2e5b26a9 system.os_interface%s
 D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-rannum.ads		20180524051736 99ade2f2 system.random_numbers%s
+D s-rannum.adb		20180524051738 20ba1217 system.random_numbers%b
+D s-ransee.ads		20180524051738 01a57b33 system.random_seed%s
 D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
 D s-soflin.ads		20180524051736 a7318a92 system.soft_links%s
 D s-stache.ads		20180524051738 a37c21ec system.stack_checking%s
@@ -95,49 +110,82 @@ D s-tpobop.ads		20180524051738 5f548bb3 system.tasking.protected_objects.operati
 D s-tassta.ads		20180524051738 cca55c94 system.tasking.stages%s
 D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
 D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
+D s-valuns.ads		20180524051738 10a8ed3b system.val_uns%s
 D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
 D s-win32.ads		20180524051736 b7f96285 system.win32%s
 D text_io.ads		20180524051736 21b2c898 text_io%s
 X 1 actuadorrefrigerante.ads
-8K9*ActuadorRefrigerante 26e25 18|9w6 10r5
+10K9*ActuadorRefrigerante 29e25 21|10w6 11r5
+13W19*ActuadorEnfriar 27e23 21|23r122 63r23 64r23 65r23
+16U17 iniciar 21|78s14 79s14 80s14
+17U17 enfriar 21|53s20 55s20
 X 2 ada.ads
-16K9*Ada 20e8 18|2r6 3r6 5r5 6r5
-X 8 a-reatim.ads
-39K13*Real_Time 185e18 18|2w10 3r10 5r9 6r9
-X 9 a-rttiev.ads
-38K23*Timing_Events 81e32 18|3w20 6r19
-X 12 a-textio.ads
-263U14*Put_Line 18|35s18
-X 18 main.adb
-13U11*Main 13b11 52l5 52t9
-15w4 tempReactor{19|3W19} 23r10 34r36
-17T14 Calentar 20b14 27l8 27t16 45r16
-18T14 Coordinador 18d26 30b14 37l8 37t19 42r12
-31i7 datoEntrada{integer} 34m23 35r41
-39w4 sensor{20|11W19} 42m24 42r24 47r4
-42t4 control{18T14}
-45t4 calentador{17T14}
-X 19 monitortemperatura.ads
-1K9*monitorTemperatura 18|11w6 12r5 19|12e23
-3W19*TemperaturaReactor 18|15r16 19|9e26
-5U17 increment 18|23s22
-X 20 sensortemperatura.ads
-9K9*SensorTemperatura 18|7w6 8r5 20|26e22
-11W19*SensorTemp 18|18r41 39r20 20|23e18
-13U17 iniciar 18|47s11
-14Y13 leer 18|34s18
-X 21 system.ads
-37K9*System 18|4w6 21|200e11
+16K9*Ada 20e8 21|2r6 3r6 5r6 6r5 7r5 16r29
+X 8 a-numeri.ads
+16K13*Numerics 32e17 21|5r10 16r33
+X 9 a-nudira.ads
+44k22*Discrete_Random 75e33 21|5w19 16r42
+50R9 Generator<38|63R9> 21|17r24[16]
+52V13 Random{integer} 21|31s28[16]
+55U14 Reset<38|100p14> 21|30s20[16]
+X 10 a-nudira.adb
+53V16 Random[38|83]{integer} 39|392b13[21|16]
+X 11 a-reatim.ads
+39K13*Real_Time 185e18 21|2w10 3r10 6r9 7r9
+X 12 a-rttiev.ads
+38K23*Timing_Events 81e32 21|3w20 7r19
+X 15 a-textio.ads
+263U14*Put_Line 21|32s18 52s21 58s18
+X 17 interfac.ads
+74M9*Unsigned_32
+77M9*Unsigned_64
+X 21 main.adb
+14U11*Main 14b11 83l5 83t9
+15I12 aleatorioReactor{integer} 16r58 27r15
+16K12 Aleatorio[9|44] 17r14 30r10 31r18
+17r7 seed{9|50R9[16]} 30r26 31r35
+18w4 tempReactor1{22|3W19} 34r13 68m27 68r27
+19w4 tempReactor2{22|3W19} 36r13 69m27 69r27
+20w4 tempReactor3{22|3W19} 38r12 70m27 70r27
+22T14 Calentar 25b14 43l8 43t16 71r16
+23T14 Coordinador 23d26 23d47 23d81 23d108 46b14 60l8 60t19 68r13 69r13 70r13
+23i26 numReactor{integer} 52r83 58r58
+27i7 random{15I12} 31m10 32r64 33r13 35r16 37r16
+47i7 datoEntrada{integer} 50m23 51r13 54r16 58r84
+62w4 sensor1{23|11W19} 68m47 68r47 75r4
+63w4 actuador1{1|13W19} 68m63 68r63 78r4
+64w4 actuador2{1|13W19} 69m63 69r63 79r4
+65w4 actuador3{1|13W19} 70m63 70r63 80r4
+66w4 sensor2{23|11W19} 69m47 69r47 76r4
+67w4 sensor3{23|11W19} 70m47 70r47 77r4
+68t4 control1{23T14}
+69t4 control2{23T14}
+70t4 control3{23T14}
+71t4 calentador{22T14}
+X 22 monitortemperatura.ads
+1K9*monitorTemperatura 21|12w6 13r5 22|12e23
+3W19*TemperaturaReactor 21|18r26 19r25 20r25 23r62 22|9e26
+5U17 increment 21|34s26 36s26 38s25
+X 23 sensortemperatura.ads
+9K9*SensorTemperatura 21|8w6 9r5 23|26e22
+11W19*SensorTemp 21|23r96 62r21 66r21 67r21 23|23e18
+13U17 iniciar 21|75s12 76s12 77s12
+14Y13 leer 21|50s18
+X 24 system.ads
+37K9*System 21|4w6 24|200e11
 67M9*Address
-X 28 s-memory.ads
-53V13*Alloc{21|67M9} 103i<c,__gnat_malloc>22
+X 34 s-memory.ads
+53V13*Alloc{24|67M9} 103i<c,__gnat_malloc>22
 68U14*Free 104i<c,__gnat_free>22
-76V13*Realloc{21|67M9} 105i<c,__gnat_realloc>22
-X 35 s-stausa.ads
+76V13*Realloc{24|67M9} 105i<c,__gnat_realloc>22
+X 38 s-rannum.ads
+75V13*Random{17|74M9} 39|221i21
+76V13*Random{17|77M9} 39|221i21
+X 44 s-stausa.ads
 203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
 268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
-X 37 s-stalib.adb
+X 46 s-stalib.adb
 93U14 Break_Start 94i<c,__gnat_break_start>22
-X 51 text_io.ads
-24K9*Text_IO=24:29 18|1w6 35r10
+X 61 text_io.ads
+24K9*Text_IO=24:29 21|1w6 32r10 52r13 58r10
 
