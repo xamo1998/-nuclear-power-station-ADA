@@ -1,3 +1,5 @@
+with Text_IO;
+
 package monitorTemperatura is
 
    protected type TemperaturaReactor is

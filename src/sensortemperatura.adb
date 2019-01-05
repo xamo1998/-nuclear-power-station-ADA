@@ -10,16 +10,21 @@ package body SensorTemperatura is
       entry leer(dato: out Integer; temperatura: access TemperaturaReactor)
         when datoDisponible is
       begin
-         dato:=temperatura.read;
-        
+         dato:=-1;
+         select
+            delay 0.1;
+         then abort
+            dato:=temperatura.read;
+         end select;
+         if dato = -1 then
+            Text_IO.Put_Line("Sensor ha tardado mas de 0.1");
+         end if;
          
          datoDisponible:=False;
-         --Text_IO.Put_Line("Leyendo temperatura...");
       end leer;
       
       procedure Timer(event:in out Ada.Real_Time.Timing_Events.Timing_Event) is
       begin
-         --obtener el dato y cargarlo en leyendo
          datoDisponible:=True;
          nextTime:=nextTime+entradaPeriodo;
          Ada.Real_Time.Timing_Events.Set_Handler(entradaJitterControl, nextTime, Timer'Access);

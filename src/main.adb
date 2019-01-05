@@ -21,7 +21,7 @@ procedure Main is
 
    task type Calentar;
    task type Coordinador(numReactor: Integer; reactor:access TemperaturaReactor;entrada:access SensorTemp; salida:access ActuadorEnfriar);
-
+   task type comprobar(numReactor: Integer; temperatura_reactor: Integer; reactor:access TemperaturaReactor; salida:access ActuadorEnfriar; enfriandose:access Integer);
 
    task body Calentar is
 
@@ -47,27 +47,67 @@ procedure Main is
 
    task body Coordinador is
       datoEntrada: Integer;
-       --entry sensorTempe(dato: out Integer; temperatura: access TemperaturaReactor);
+      type comprueba is access comprobar;
+      compruebaTarea:comprueba;
+      enfriandose: aliased Integer;
    begin
-
+      enfriandose:=0;
+      datoEntrada:=-1;
       loop
-
          entrada.leer(datoEntrada,reactor);
+         Text_IO.Put_Line("Temp Reactor: "&Integer'Image(numReactor)&Integer'Image(datoEntrada));
 
-         if datoEntrada>1750 then
-            Text_IO.Put_Line("Error temperatura mayor de 1750---->"&Integer'Image(numReactor));
-            salida.enfriar(reactor);
-         elsif datoEntrada>=1500 then
-            salida.enfriar(reactor);
-         elsif datoEntrada<1500 then
-            salida.parar;
+
+         if datoEntrada<1500 then
+            enfriandose:=0;
          end if;
 
-         Text_IO.Put_Line("Temp Reactor: "&Integer'Image(numReactor)&Integer'Image(datoEntrada));
+
+         if (datoEntrada>1500) and (enfriandose=0) then
+            enfriandose:=1;
+            compruebaTarea:=new comprobar(numReactor, datoEntrada, reactor, salida,enfriandose'Access);
+         end if;
+         datoEntrada:=-1;
       end loop;
 
 
    end Coordinador;
+
+   task body comprobar is
+      iteraciones:Integer;
+   begin
+      iteraciones:=(temperatura_reactor-1500)/50;
+         if temperatura_reactor>1750 then
+            Text_IO.Put_Line("Error temperatura mayor de 1750---->"&Integer'Image(numReactor));
+         select
+            delay 0.1;
+         then abort
+            salida.enfriar(reactor);
+         end select;
+         iteraciones:=iteraciones-1;
+         while iteraciones>0 loop
+               salida.enfriar(reactor);
+            iteraciones:=iteraciones-1;
+            delay 1.0;
+            end loop;
+
+         elsif temperatura_reactor>1500 then
+            select
+            delay 0.1;
+         then abort
+            salida.enfriar(reactor);
+         end select;
+         iteraciones:=iteraciones-1;
+         while iteraciones>0 loop
+               salida.enfriar(reactor);
+            iteraciones:=iteraciones-1;
+            delay 1.0;
+            end loop;
+
+      end if;
+      enfriandose.all:=0;
+      null;
+   end comprobar;
 
    sensor1: aliased SensorTemp;
    actuador1: aliased ActuadorEnfriar;

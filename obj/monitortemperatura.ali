@@ -5,29 +5,39 @@ A -march=x86-64
 P ZX
 
 RN
+RV NO_IO
 RV NO_PROTECTED_TYPES
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U monitortemperatura%b	monitortemperatura.adb	63fbee28 NE OO PK IL
+U monitortemperatura%b	monitortemperatura.adb	38ee70b8 NE OO PK IL
+Z ada.tags%s		a-tags.adb		a-tags.ali
 Z system.soft_links%s	s-soflin.adb		s-soflin.ali
 Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
 
-U monitortemperatura%s	monitortemperatura.ads	6a4ee730 EE NE OO PK IL
+U monitortemperatura%s	monitortemperatura.ads	10e9b138 EE NE OO PK IL
 Z system.tasking%s	s-taskin.adb		s-taskin.ali
 Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W text_io%s		text_io.ads		text_io.ali
 
 D ada.ads		20180524051736 76789da1 ada%s
 D a-except.ads		20180524051736 291912d5 ada.exceptions%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051738 491b781d ada.tags%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
 D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20180524051736 5ab55268 interfaces%s
 D i-c.ads		20180524051736 5421119b interfaces.c%s
 D i-cstrin.ads		20180524051736 341d0ddf interfaces.c.strings%s
-D monitortemperatura.ads  20181224112150 6a4ee730 monitortemperatura%s
-D monitortemperatura.adb  20181224121300 09b50918 monitortemperatura%b
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D monitortemperatura.ads  20190105194406 315b79a0 monitortemperatura%s
+D monitortemperatura.adb  20190105194722 09b50918 monitortemperatura%b
 D system.ads		20180524051738 32a08138 system%s
 D s-atacco.ads		20180524051738 4c36d12f system.address_to_access_conversions%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
 D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
 D s-multip.ads		20180524051736 38ac9f73 system.multiprocessors%s
 D s-osinte.ads		20180524051738 2e5b26a9 system.os_interface%s
 D s-parame.ads		20180524051738 48ec542b system.parameters%s
@@ -43,15 +53,19 @@ D s-taskin.ads		20180524051738 1d8c1ccb system.tasking%s
 D s-taprob.ads		20180524051738 acd6094d system.tasking.protected_objects%s
 D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
 D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
 D s-win32.ads		20180524051736 b7f96285 system.win32%s
-X 7 monitortemperatura.ads
-1K9*monitorTemperatura 12l5 12e23 8|1b14 23l5 23t23
-3W19*TemperaturaReactor 8E7 9l8 9e26 8|3b20 21l11 21t29
-4V16 read{integer} 8|4b16 7l11 7t15
-5U17 increment 8|9b17 12l11 12t20
-6U17 decrement 8|14b17 17l11 17t20
-8i7 temperatura{integer} 8|6r17 11r10 11r23 16r10 16r23
-X 18 s-stausa.ads
+D text_io.ads		20180524051736 21b2c898 text_io%s
+X 12 monitortemperatura.ads
+3K9*monitorTemperatura 14l5 14e23 13|1b14 23l5 23t23
+5W19*TemperaturaReactor 10E7 11l8 11e26 13|3b20 21l11 21t29
+6V16 read{integer} 13|4b16 7l11 7t15
+7U17 increment 13|9b17 12l11 12t20
+8U17 decrement 13|14b17 17l11 17t20
+10i7 temperatura{integer} 13|6r17 11r10 11r23 16r10 16r23
+X 25 s-stausa.ads
 203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
 268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+X 36 text_io.ads
+24K9*Text_IO=24:29 12|1w6
 

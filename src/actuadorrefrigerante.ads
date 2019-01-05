@@ -14,7 +14,6 @@ package ActuadorRefrigerante is
 
       pragma Interrupt_Priority(System.Interrupt_Priority'Last);
       procedure iniciar;
-      procedure parar;
       procedure enfriar(temperatura: access TemperaturaReactor);
       procedure Timer(event: in out Ada.Real_Time.Timing_Events.Timing_Event);
    private
