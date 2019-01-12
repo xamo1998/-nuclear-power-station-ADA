@@ -57,7 +57,6 @@ procedure Main is
          entrada.leer(datoEntrada,reactor);
          Text_IO.Put_Line("Temp Reactor: "&Integer'Image(numReactor)&Integer'Image(datoEntrada));
 
-
          if datoEntrada<1500 then
             enfriandose:=0;
          end if;
@@ -78,7 +77,7 @@ procedure Main is
    begin
       iteraciones:=(temperatura_reactor-1500)/50;
          if temperatura_reactor>1750 then
-            Text_IO.Put_Line("Error temperatura mayor de 1750---->"&Integer'Image(numReactor));
+            Text_IO.Put_Line("Error temperatura mayor de 1750 en reactor "&Integer'Image(numReactor));
          select
             delay 0.1;
          then abort
